@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENS Lookup</title>
+    <script src="https://cdn.jsdelivr.net/npm/ensjs@latest/dist/ens.min.js"></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>ENS Lookup Tool</h1>
+    <form id="ensForm">
+        <label for="ensName">Enter ENS Name:</label>
+        <input type="text" id="ensName" name="ensName" required>
+        <button type="submit">Lookup</button>
+    </form>
+    <div id="result"></div>
+</body>
+</html>
